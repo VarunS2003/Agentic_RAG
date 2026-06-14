@@ -18,7 +18,7 @@ MODEL_BACKEND = "gemini"
 GEMINI_MODEL = "gemini-3.1-flash-lite"
 GEMINI_EMBEDDING_MODEL = "gemini-embedding-2"
 import os
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyCUjVI4J7IFqM6T6q7fzYqUOIIj8DT97p4")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API KEY")
 
 # ── Chunking ───────────────────────────────────────────────────────────────────
 CHUNK_SIZE         = 512               # characters per chunk
